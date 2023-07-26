@@ -1,0 +1,63 @@
+.slider {
+	width: 1000px;
+	height: 250px;
+	border: 1px solid #000;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.panel {
+	display: flex;
+	height: 100%;
+	transition: margin-left 0.3s ease-in-out;
+}
+
+li {
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	height: 100%;
+}
+
+.p1 {
+	flex-basis: 400px;
+	background: pink;
+}
+
+.p2 {
+	flex-basis: 200px;
+	background: lightgreen;
+}
+
+.p3 {
+	flex-basis: 500px;
+	background: orange;
+}
+.p4 {
+	flex-basis: 500px;
+	background: blue;
+}
+
+.prev {
+	position: absolute;
+	top: 50%;
+	left: 50px;
+}
+
+.next {
+	position: absolute;
+	top: 50%;
+	right: 50px;
+}
+
+.progress-bar {
+	width: 0;
+	height: 5px;
+	background-color: #007bff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
